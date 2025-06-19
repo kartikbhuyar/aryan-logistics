@@ -1,4 +1,7 @@
+
 import React, { useState } from 'react';
+import type { JSX } from 'react';
+
 import { Plus, Save, Sparkles, MapPin, User, Truck, Calendar, Hash } from 'lucide-react';
 import type { LogisticsEntry } from '../types';
 import { addEntry, loadEntries } from '../utils/storage';
